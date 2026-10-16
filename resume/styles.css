@@ -79,7 +79,7 @@ ul {
     display: flex;
     flex-direction: column;
     /* height: 1.8in; */
-    background-color: #5e6250;
+    background-color: #666666;
     padding-top: 0.1in;
     padding-right: 0in;
     padding-bottom: 0.1in;
@@ -169,8 +169,8 @@ ul {
 
 .resume-timeline-header {
     font-weight: 600;
-    font-size: 0.2in;
-    padding-left: 0.2in;
+    font-size: 17px;
+    padding-left: 0.1in;
     line-height: 1.2;
 }
 
@@ -229,6 +229,7 @@ ul {
     display: flex;
     flex: 1 1;
     flex-direction: row;
+    flex-wrap: wrap;
     padding-left: 0.2in;
     padding-top: 3px;
 }
@@ -237,7 +238,7 @@ ul {
     display: flex;
     flex: 1 1;
     flex-direction: row;
-    padding-left: 0.15in;
+    padding-left: 0.1in;
     padding-top: 3px;
     font-size: 0.15in;
 }
@@ -267,5 +268,20 @@ ul {
 }
 
 .resume-timeline-content-description {
+    flex: 0 0 100%;
     padding-top: 0.1in;
+    /* font matches .resume-body-short-summary; left-aligned to avoid stretched word gaps */
+    text-align: left;
+    color: black;
+    font-size: 0.15in;
+}
+
+/* Tech Stacks: category label with its items underneath */
+.resume-tech-stack-item {
+    line-height: 1.25;
+}
+
+.resume-tech-stack-list {
+    font-size: 0.13in;
+    color: #333333;
 }

@@ -1,5 +1,5 @@
 # Site
-repository: https://kaiguangg.github.io/digital-cv/
+repository: https://obsidian-kai.github.io/digital-cv/
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -16,7 +16,7 @@ email: kaiguangg@hotmail.com
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 # twitter_username: jekyllrb
@@ -38,10 +38,7 @@ linkedin_username: oh-kai-guang
 additional_links:
 - title: Download CV as PDF
   icon: far fa-file-pdf
-  url: https://kaiguangg.github.io/digital-cv/resume/index.html
-- title: Medium Articles
-  icon: fa fa-medium
-  url: https://medium.com/@kaiiguangg
+  url: https://obsidian-kai.github.io/digital-cv/resume/index.html
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -56,8 +53,8 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi there, my name is Kai Guang. I am a passionate software developer with 4+ years of professional experience in developing full stack web application.
-  I enjoy working on projects where I can brainstorm ideas with the team, bringing diverse perspectives together to create innovative solutions. I'm always on the lookout for new opportunities to take on unfamiliar technical challenges, expanding both personal and team capabilities. Actively looking out for new opportunities, drop me a mail or check out my [CV](https://kaiguangg.github.io/digital-cv/resume/index.html).
+  Hi there, my name is Kai Guang. I am a passionate software developer with 6 years of professional experience in developing full stack web application.
+  I enjoy working on projects where I can brainstorm ideas with the team, bringing diverse perspectives together to create innovative solutions. I'm always on the lookout for new opportunities to take on unfamiliar technical challenges, expanding both personal and team capabilities. Actively looking out for new opportunities, drop me a mail or check out my [CV](https://obsidian-kai.github.io/digital-cv/resume/index.html).
 #  I am currently working as a Software Engineer with a Singapore Government Agency to refresh and enhance existing defence system(s) using Angular, Spring and Oracle Database.
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -80,7 +77,7 @@ content:
         additional_links:
           - title:  Behavioural Password Protection
             icon: fab fa-github
-            url: https://github.com/kaiguangg/FYP
+            url: https://github.com/obsidian-kai/FYP
           - title:  Behavioural Password Protection
             icon: fab fa-youtube
             url: https://www.youtube.com/watch?v=k5TPriRXZD0
@@ -134,7 +131,7 @@ content:
       - layout: top-right
         title: PSA International Pte Ltd
         sub_title: System Analyst
-        caption: Janaury 2021 - September 2021
+        caption: January 2021 - September 2021
         # link: Link to company (optional)
         # quote: >
         #   Short description of the company (optional)
